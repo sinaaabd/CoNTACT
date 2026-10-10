@@ -1,0 +1,15 @@
+$ conda create --name lastenv python=3.8
+$ conda activate lastenv
+
+
+$ conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11.0 -c pytorch
+$ conda install -c dglteam dgl-cuda11.0==0.7.1
+$ pip install rdkit-pypi
+$ pip install dgllife==0.2.8
+$ pip install -U scikit-learn
+$ pip install yacs
+$ pip install prettytable
+
+
+#To use Attention Maps:
+pip install tape_proteins
